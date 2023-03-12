@@ -1,0 +1,10 @@
+.portfolio {
+  position: relative;
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-image: url(../../images/aaa.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: #fff;
+}
