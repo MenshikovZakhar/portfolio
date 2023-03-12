@@ -2,3 +2,7 @@
 @import url(../fonts/philosopher.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__button/portfolio__button.css);
+@import url(../blocks/portfolio/__button-arrow/portfolio__button-arrow.css);
+@import url(../blocks/portfolio/__arrow/portfolio__arrow.css);
+@import url(../blocks/portfolio/__arrow-down/portfolio__arrow-down.css);
