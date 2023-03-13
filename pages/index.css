@@ -9,3 +9,6 @@
 @import url(../blocks/home/__heading/home__heading.css);
 @import url(../blocks/home/__text/home__text.css);
 @import url(../blocks/home/__title/home__title.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__logo/header__logo.css);
