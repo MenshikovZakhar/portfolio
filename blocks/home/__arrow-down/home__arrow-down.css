@@ -1,8 +1,8 @@
-.portfolio__arrow-down {
+.home__arrow-down {
   margin: 25px 0 0 31px;
 }
 
-.portfolio__arrow-down span {
+.home__arrow-down span {
   display: block;
   width: 15px;
   height: 15px;
@@ -10,18 +10,18 @@
   border-right: 3px solid #337AB7;
   transform: rotate(45deg);
   margin: -15px;
-  animation: portfolio__arrow-down 2s infinite;
+  animation: home__arrow-down 2s infinite;
 }
 
-.portfolio__arrow-down span:nth-child(2) {
+.home__arrow-down span:nth-child(2) {
   animation-delay: -0.2s;
 }
 
-.portfolio__arrow-down span:nth-child(3) {
+.home__arrow-down span:nth-child(3) {
   animation-delay: -0.4s;
 }
 
-@keyframes portfolio__arrow-down {
+@keyframes home__arrow-down {
   0% {
     opacity: 0;
     transform: rotate(45deg) translate(-10px, -10px);

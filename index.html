@@ -9,16 +9,16 @@
 </head>
 
 <body class="page">
-  <section class="portfolio">
-    <div class="portfolio__heading">
-      <p class="portfolio__text">Здравствуйте!
+  <section class="home">
+    <div class="home__heading">
+      <p class="home__text">Здравствуйте!
         Меня зовут Захар! <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="40" /></p>
-      <h1 class="portfolio__title"> Я Frontend Web Developer</h1>
-      <p class="portfolio__text">полный решимости выполнить Ваш заказ</p>
+      <h1 class="home__title"> Я Frontend Web Developer</h1>
+      <p class="home__text">полный решимости выполнить Ваш заказ</p>
     </div>
-    <div class="portfolio__button">
-      <a href="#header" class="portfolio__button-arrow">
-        <div class="portfolio__arrow-down">
+    <div class="home__button">
+      <a href="#header" class="home__button-arrow">
+        <div class="home__arrow-down">
           <span></span>
           <span></span>
           <span></span>
@@ -26,8 +26,41 @@
       </a>
     </div>>
   </section>
-  <header class="header">
-
+  <header id="header" class="header">
+    <div class="header__container">
+      <div class="header__logo">
+        <img alt="ai-development"
+          data-src="https://ai-development.ru/wp-content/themes/doctorsyl_portfolio/img/svg/logo.svg"
+          class=" ls-is-cached lazyloaded"
+          src="https://ai-development.ru/wp-content/themes/doctorsyl_portfolio/img/svg/logo.svg"><noscript><img
+            src="https://ai-development.ru/wp-content/themes/doctorsyl_portfolio/img/svg/logo.svg"
+            alt="ai-development"></noscript>
+      </div>
+      <nav class="header__menu header__menu-horizontal">
+        <ul>
+          <li class="link-services active"><a class="anchor" href="#services"><i class="fa fa-files-o"></i>Услуги</a>
+          </li>
+          <li class="link-portfolio"><a class="anchor" href="#portfolio"><i class="fa fa-book"></i>Портфолио</a></li>
+          <li class="link-skills"><a class="anchor" href="#skills"><i class="fa fa-star"></i>Навыки</a></li>
+          <li class="link-about"><a class="anchor" href="#about"><i class="fa fa-street-view"></i>Обо мне</a></li>
+          <li class="link-contact"><a class="anchor" href="#contact"><i class="fa fa-envelope-open"></i>Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-toggler">
+        <i class="fa fa-bars"></i>
+      </div>
+    </div>
+    <nav class="header-menu vertical-menu">
+      <ul>
+        <!--            <li class="link-home"><a href="--><!--"><i class="fa fa-home"></i>Блог</a></li>-->
+        <li class="link-services active"><a class="anchor" href="#services"><i class="fa fa-files-o"></i>Услуги</a></li>
+        <li class="link-portfolio"><a class="anchor" href="#portfolio"><i class="fa fa-book"></i>Портфолио</a></li>
+        <li class="link-skills"><a class="anchor" href="#skills"><i class="fa fa-star"></i>Навыки</a></li>
+        <li class="link-about"><a class="anchor" href="#about"><i class="fa fa-street-view"></i>Обо мне</a></li>
+        <li class="link-contact"><a class="anchor" href="#contact"><i class="fa fa-envelope-open"></i>Контакты</a></li>
+      </ul>
+    </nav>
   </header>
   <main class="content">
 
