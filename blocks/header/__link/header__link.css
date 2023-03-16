@@ -5,8 +5,6 @@
   font-weight: 900;
 }
 
-.fa-keyboard-o {}
-
 
 .fa-keyboard-o:before {
   content: "\f11c";
@@ -15,16 +13,12 @@
   margin-right: 5px;
 }
 
-.fa-book {}
-
 .fa-book:before {
   content: "\f02d";
   color: black;
   font: normal normal normal 25px/1 FontAwesome;
   margin-right: 5px;
 }
-
-.fa-star {}
 
 .fa-star:before {
   content: "\f005";
@@ -33,16 +27,12 @@
   margin-right: 5px;
 }
 
-.fa-street-view {}
-
 .fa-street-view:before {
   content: "\f21d";
   color: black;
   font: normal normal normal 25px/1 FontAwesome;
   margin-right: 5px;
 }
-
-.fa-envelope-open {}
 
 .fa-envelope-open:before {
   content: "\f2b6";

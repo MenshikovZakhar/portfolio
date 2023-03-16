@@ -1,0 +1,13 @@
+.header__menu-toggler {
+  font-size: 32px;
+  cursor: pointer;
+  transition: transform .5s;
+  display: none;
+}
+
+.fa-bars:before {
+  content: "\f0c9";
+  color: black;
+  font: normal normal normal 25px/1 FontAwesome;
+  margin-right: 5px;
+}
