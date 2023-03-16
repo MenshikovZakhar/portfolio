@@ -1,6 +1,6 @@
 .header__link {
   text-decoration: none;
-  color: black;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 900;
 }
@@ -8,35 +8,35 @@
 
 .fa-keyboard-o:before {
   content: "\f11c";
-  color: black;
+  color: #ffffff;
   font: normal normal normal 25px/1 FontAwesome;
   margin-right: 5px;
 }
 
 .fa-book:before {
   content: "\f02d";
-  color: black;
+  color: #ffffff;
   font: normal normal normal 25px/1 FontAwesome;
   margin-right: 5px;
 }
 
 .fa-star:before {
   content: "\f005";
-  color: black;
+  color: #ffffff;
   font: normal normal normal 25px/1 FontAwesome;
   margin-right: 5px;
 }
 
 .fa-street-view:before {
   content: "\f21d";
-  color: black;
+  color: #ffffff;
   font: normal normal normal 25px/1 FontAwesome;
   margin-right: 5px;
 }
 
 .fa-envelope-open:before {
   content: "\f2b6";
-  color: black;
+  color: #ffffff;
   font: normal normal normal 25px/1 FontAwesome;
   margin-right: 5px;
 }
