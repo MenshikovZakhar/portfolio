@@ -1,0 +1,8 @@
+.services__item {
+  margin: 30px;
+  background-color: #fff;
+  max-width: 300px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
