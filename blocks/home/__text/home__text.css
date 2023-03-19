@@ -2,3 +2,10 @@
   font-size: 18px;
   color: black;
 }
+
+.home__text_1 {
+  font-size: 18px;
+  color: #2a637d;
+  width: 40%;
+  text-align: center;
+}
