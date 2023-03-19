@@ -1,0 +1,21 @@
+.home__button {
+  width: 40%;
+  margin: 0px;
+  text-align: center;
+}
+
+@media(max-width: 730px) {
+  .home__button {
+    text-align: end;
+    width: 32%;
+  }
+}
+
+@media(max-width: 600px) {
+  .home__button {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+  }
+}

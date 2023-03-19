@@ -1,0 +1,47 @@
+.home__text {
+  font-size: 18px;
+  color: black;
+  margin: 0;
+  text-align: center;
+}
+
+.home__text_1 {
+  font-size: 18px;
+  color: #2a637d;
+  width: 40%;
+  text-align: center;
+}
+
+
+@media(max-width: 730px) {
+  .home__text_1 {
+    text-align: end;
+    width: 35%;
+  }
+}
+
+@media(max-width: 600px) {
+  .home__text_1 {
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media(max-width: 500px) {
+  .home__text_1 {
+    font-size: 16px;
+  }
+
+  .home__text {
+    font-size: 16px;
+  }
+}
+
+
+@media(max-width: 500px) {
+  .home__text_1 {
+    bottom: 80px;
+  }
+}

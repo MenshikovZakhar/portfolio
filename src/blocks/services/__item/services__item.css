@@ -1,0 +1,16 @@
+.services__item {
+  margin: 30px;
+  background-color: #fff;
+  max-width: 300px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+@media(max-width: 500px) {
+  .services__item {
+    transform: translateY(30px);
+  }
+}
