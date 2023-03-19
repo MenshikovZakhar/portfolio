@@ -24,3 +24,5 @@
 @import url(../blocks/services/__item/services__item.css);
 @import url(../blocks/services/__text/services__text.css);
 @import url(../blocks/services/__item/_show/services__item_show.css);
+@import url(../blocks/services/__underline/services__underline.css);
+@import url(../blocks/services/__title/services__title.css);
