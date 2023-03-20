@@ -28,3 +28,5 @@
 @import url(../blocks/services/__title/services__title.css);
 
 @import url(../blocks/skills/skills.css);
+@import url(../blocks/skills/__image/skills__image.css);
+@import url(../blocks/skills/__items/skills__items.css);

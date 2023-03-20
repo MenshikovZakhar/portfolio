@@ -1,0 +1,11 @@
+.skills__items {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: space-between;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  list-style: none;
+}
