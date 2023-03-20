@@ -30,3 +30,5 @@
 @import url(../blocks/skills/skills.css);
 @import url(../blocks/skills/__image/skills__image.css);
 @import url(../blocks/skills/__items/skills__items.css);
+@import url(../blocks/skills/__item/skills__item.css);
+@import url(../blocks/skills/__item/_show/skills__item_show.css);

@@ -13,6 +13,8 @@ let options = {
 let observer = new IntersectionObserver(onEntry, options);
 let elements = document.querySelectorAll('.services__item');
 
+
 for (let elm of elements) {
   observer.observe(elm);
 }
+
