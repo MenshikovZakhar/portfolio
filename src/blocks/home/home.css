@@ -1,12 +1,13 @@
 .home {
-  position: relative;
   min-height: 100vh;
-  background-image: url(../../images/aaa.gif);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   color: #fff;
   display: flex;
   flex-direction: column;
   width: 100%;
+  background: url(../../images/aaa.gif) no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  position: relative;
 }
