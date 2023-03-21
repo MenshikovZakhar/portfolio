@@ -1,6 +1,5 @@
 .home {
   position: relative;
-  background-attachment: fixed;
   min-height: 100vh;
   background-image: url(../../images/aaa.gif);
   background-repeat: no-repeat;
