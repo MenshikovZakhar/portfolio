@@ -2,6 +2,15 @@
   display: block;
 }
 
+.header__menu-vertical {
+  display: none;
+}
+
+
+.header__menu-vertical_show {
+  display: blok;
+}
+
 @media(max-width: 1000px) {
   .header__menu-horizontal {
     display: none;

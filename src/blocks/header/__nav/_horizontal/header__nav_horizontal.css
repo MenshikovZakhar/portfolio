@@ -2,3 +2,10 @@
   list-style: none;
   display: flex;
 }
+
+
+.header__nav_vertical {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
