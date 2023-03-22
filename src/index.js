@@ -52,8 +52,19 @@ anchors.forEach(function (item) {
   });
 });
 
-div = document.getElementById('i');
+
+1
+2
+3
+4
+5
+let div = document.getElementById('i');
 document.querySelector('.header__menu-toggler').onclick = () => {
   div.classList.toggle('fa-times');
   div.classList.toggle('fa-bars');
 }
+
+var boxopen = document.getElementById('i');
+boxopen.addEventListener("click", function () {
+  boxopen.style.animation = "rotate 10s";
+});
