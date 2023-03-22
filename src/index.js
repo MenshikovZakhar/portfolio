@@ -19,6 +19,7 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
+
 const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
   animationTime = 450,
   framesCount = 20;
@@ -50,3 +51,9 @@ anchors.forEach(function (item) {
     }, animationTime / framesCount);
   });
 });
+
+div = document.getElementById('i');
+document.querySelector('.header__menu-toggler').onclick = () => {
+  div.classList.toggle('fa-times');
+  div.classList.toggle('fa-bars');
+}
