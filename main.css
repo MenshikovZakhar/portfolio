@@ -20,7 +20,7 @@
 .header__nav_horizontal{display:flex;list-style:none}
 .header__links{margin-right:15px}
 .header__link{color:#fff;font-size:20px;font-weight:900;text-decoration:none}.fa-keyboard-o:before{content:"\f11c"}.fa-book:before,.fa-keyboard-o:before{color:#fff;font:normal normal normal 25px/1 FontAwesome;margin-right:5px}.fa-book:before{content:"\f02d"}.fa-star:before{content:"\f005"}.fa-star:before,.fa-street-view:before{color:#fff;font:normal normal normal 25px/1 FontAwesome;margin-right:5px}.fa-street-view:before{content:"\f21d"}.fa-envelope-open:before{color:#fff;content:"\f2b6";font:normal normal normal 25px/1 FontAwesome;margin-right:5px}
-.header__menu-toggler{cursor:pointer;display:none;transition:transform .5s}.header__menu-toggler:active{transform:rotate(1turn)}.fa-bars:before{content:"\f0c9"}.fa-bars:before,.fa-times:before{color:#fff;font-size:40px;font:normal normal normal 25px/1 FontAwesome;margin-right:5px}.fa-times:before{content:"\f00d"}@media(max-width:1000px){.header__menu-toggler{display:block}}
+.header__menu-toggler{cursor:pointer;display:none;transition:transform .6s}.header__menu-toggler:active{transform:rotate(1turn)}.fa-bars:before{content:"\f0c9"}.fa-bars:before,.fa-times:before{color:#fff;font-size:40px;font:normal normal normal 25px/1 FontAwesome;margin-right:5px}.fa-times:before{content:"\f00d"}@media(max-width:1000px){.header__menu-toggler{display:block}}
 .services{background-color:#bccedc}
 .services__image{height:70px;width:80px}
 .services__container{align-items:stretch;display:flex;flex-wrap:wrap;justify-content:center;margin:0 auto;width:80%}
