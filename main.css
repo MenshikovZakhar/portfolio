@@ -16,8 +16,8 @@
 .header{background-color:#5c87bd;padding:0 10px;position:sticky;top:0;z-index:2}
 .header__container{align-items:center;display:flex;justify-content:space-between;margin:0 auto;max-width:80%;padding:0}
 .header__logo{height:60px}
-.header__menu-horizontal{display:block}@media(max-width:1000px){.header__menu-horizontal{display:none}}
-.header__nav_horizontal{display:flex;list-style:none}
+.header__menu-horizontal{display:block}.header__menu-vertical{display:none}.header__menu-vertical_show{display:blok}@media(max-width:1000px){.header__menu-horizontal{display:none}}
+.header__nav_horizontal,.header__nav_vertical{display:flex;list-style:none}.header__nav_vertical{flex-direction:column}
 .header__links{margin-right:15px}
 .header__link{color:#fff;font-size:20px;font-weight:900;text-decoration:none}.fa-keyboard-o:before{content:"\f11c"}.fa-book:before,.fa-keyboard-o:before{color:#fff;font:normal normal normal 25px/1 FontAwesome;margin-right:5px}.fa-book:before{content:"\f02d"}.fa-star:before{content:"\f005"}.fa-star:before,.fa-street-view:before{color:#fff;font:normal normal normal 25px/1 FontAwesome;margin-right:5px}.fa-street-view:before{content:"\f21d"}.fa-envelope-open:before{color:#fff;content:"\f2b6";font:normal normal normal 25px/1 FontAwesome;margin-right:5px}
 .header__menu-toggler{cursor:pointer;display:none;transition:transform .6s}.header__menu-toggler:active{transform:rotate(1turn)}.fa-bars:before{content:"\f0c9"}.fa-bars:before,.fa-times:before{color:#fff;font-size:40px;font:normal normal normal 25px/1 FontAwesome;margin-right:5px}.fa-times:before{content:"\f00d"}@media(max-width:1000px){.header__menu-toggler{display:block}}
