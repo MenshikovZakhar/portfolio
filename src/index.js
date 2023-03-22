@@ -64,7 +64,7 @@ document.querySelector('.header__menu-toggler').onclick = () => {
   div.classList.toggle('fa-bars');
 }
 
-var boxopen = document.getElementById('i');
+var boxopen = document.querySelector('header__menu-toggler');
 boxopen.addEventListener("click", function () {
   boxopen.style.animation = "rotate 10s";
 });
