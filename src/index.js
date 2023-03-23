@@ -52,19 +52,3 @@ anchors.forEach(function (item) {
   });
 });
 
-
-
-let div = document.getElementById('i');
-document.querySelector('.header__menu-toggler').onclick = () => {
-  div.classList.toggle('fa-times');
-  div.classList.toggle('fa-bars');
-}
-
-
-let di = document.getElementById('div');
-let rotate = 0;
-di.addEventListener("click", function () {
-  rotate = rotate ? 0 : 720
-  di.style.transform = "rotate(" + rotate + "deg)";
-  di.style.transition = "transform 1s";
-});
