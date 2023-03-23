@@ -1,13 +1,9 @@
 .header__menu-toggler {
   cursor: pointer;
-  transition: transform .6s;
   display: none;
 }
 
-.header__menu-toggler:active {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-}
+
 
 .fa-bars:before {
   content: "\f0c9";
