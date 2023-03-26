@@ -48,6 +48,16 @@
   transform: rotate(-405deg);
 }
 
+.menu {
+  position: absolute;
+  top: 500px;
+  right: 50px;
+  list-style: none;
+}
+
+.hide {
+  display: none;
+}
 
 @media (max-width: 1000px) {
   .header__menu-toggler {

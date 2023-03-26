@@ -52,3 +52,9 @@ anchors.forEach(function (item) {
   });
 });
 
+const handleClick = function (e) {
+  const divs = document.getElementById("menu")
+  divs.classList.toggle("hide")
+}
+document.getElementById("menu-toggle").addEventListener("click", handleClick)
+
