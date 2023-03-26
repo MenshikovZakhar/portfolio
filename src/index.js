@@ -52,7 +52,7 @@ anchors.forEach(function (item) {
   });
 });
 
-const handleClick = function (e) {
+const handleClick = function () {
   const divs = document.getElementById("menu")
   divs.classList.toggle("hide")
 }
