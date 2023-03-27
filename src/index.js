@@ -15,7 +15,7 @@ const renderercard = (item) => {
       }
     }
   );
-  const cardElement = card.generateCard();
+  const cardElement = card.generateCard(item);
   return cardElement;
 }
 
