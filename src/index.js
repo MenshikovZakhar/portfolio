@@ -1,5 +1,35 @@
 import './pages/index.css';
+import Card from "./scripts/components/Card.js";
+import { initialCards } from "./scripts/components/initialCards.js";
+import Section from "./scripts/components/Section.js";
 
+//функция создания новых карточек
+const renderercard = (item) => {
+  const card = new Card(
+    item.name,
+    item.link,
+    ".card-template",
+    {
+      handleCardClick: () => {
+        popupWithImage.open(item.name, item.link);
+      }
+    }
+  );
+  const cardElement = card.generateCard();
+  return cardElement;
+}
+
+//отображение карточек
+const standardCards = new Section(
+  {
+    data: initialCards,
+    renderer: (item) => {
+      standardCards.addItems(renderercard(item));
+    }
+  },
+  ".elements__list"
+);
+standardCards.renderItems(initialCards);
 
 
 
