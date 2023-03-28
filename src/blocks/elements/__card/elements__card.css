@@ -2,5 +2,10 @@
   overflow: hidden;
   background-color: #FFFFFF;
   position: relative;
-  width: 100%;
+  width: 450px;
+}
+
+
+.elements__card:hover {
+  background-color: #ffffffaa;
 }

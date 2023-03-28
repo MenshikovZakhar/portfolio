@@ -8,6 +8,7 @@ const renderercard = (item) => {
   const card = new Card(
     item.name,
     item.link,
+    item.description,
     ".card-template",
     {
       handleCardClick: () => {
