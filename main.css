@@ -29,14 +29,15 @@
 .services__item.show,.skills__item.show{opacity:1;transform:translateY(0);transition:all 1.5s}
 .services__underline{background:rgba(0,0,0,.5);height:1px;margin:20px auto;width:100px}
 .services__title{font-size:32px;margin:40px 0 10px;text-align:center;text-transform:uppercase}
-
+.skills{background-color:#bccedc}
 .skills__image{height:200px;width:200px}
 .skills__items{grid-column-gap:20px;grid-row-gap:20px;display:grid;grid-template-columns:repeat(auto-fill,200px);justify-content:space-between;list-style:none;margin:0 auto;padding:0;width:80%}
 .skills__item{opacity:0;transform:translateY(50px)}@media(max-width:500px){.skills__item{transform:translateY(30px)}}
 .skills__item.skills__item_show{opacity:1;transform:translateY(0);transition:all 1.5s}
 .elements{margin:43px auto 67px;padding:0}@media screen and (max-width:767px){.elements{margin-bottom:48px;margin-top:36px}}
-.elements__card{background-color:#fff;overflow:hidden;position:relative;width:100%}
-.elements__image{cursor:pointer;display:block;height:170px;-o-object-fit:cover;object-fit:cover;width:100%}
-.elements__list{grid-column-gap:17px;grid-row-gap:20px;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);list-style-type:none;margin:0 auto;max-width:880px;padding:0}@media screen and (max-width:1023px){.elements__list{grid-column-gap:56px;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(3,1fr);width:calc(100% - 38px)}}@media screen and (max-width:767px){.elements__list{align-items:center;display:flex;flex-direction:column;gap:20px;width:calc(100% - 38px)}}
-.elements__title{color:#000;font-family:Philosopher,Arial\ ,sans-serif;font-size:24px;line-height:1.2;margin:0;overflow:hidden;padding:0;position:absolute;text-overflow:ellipsis;top:50px;white-space:nowrap}
+.elements__card{background-color:#fff;overflow:hidden;position:relative;width:450px}.elements__card:hover{background-color:#ffffffaa}
+.elements__image{cursor:pointer;display:block;height:220px;width:100%;width:450px}.elements__image:hover{opacity:.06}
+.elements__list{grid-column-gap:17px;grid-row-gap:20px;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);list-style-type:none;margin:0 auto;max-width:100%;padding:0}@media screen and (max-width:1023px){.elements__list{grid-column-gap:56px;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(3,1fr);width:calc(100% - 38px)}}@media screen and (max-width:767px){.elements__list{align-items:center;display:flex;flex-direction:column;gap:20px;width:calc(100% - 38px)}}
+.elements__title{color:#000;font-family:Philosopher,Arial\ ,sans-serif;font-size:24px;line-height:1.2;margin:0;overflow:hidden;padding:0;text-overflow:ellipsis;white-space:nowrap}
+.elements__description{position:absolute;top:50px}
 
