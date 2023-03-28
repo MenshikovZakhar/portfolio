@@ -9,3 +9,10 @@
 .elements__card:hover {
   background-color: #ffffffaa;
 }
+
+
+.elements__card:hover .elements__title {
+  transform: translateY(50%);
+  opacity: 1;
+  transition: all 1.5s;
+}
