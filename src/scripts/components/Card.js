@@ -1,10 +1,9 @@
 export default class Card {
-  constructor(nameValue, linkValue, descriptionValue, templateSelector, { handleCardClick }) {
+  constructor(nameValue, linkValue, descriptionValue, templateSelector, handMouseover, handleMouseout) {
     this._nameValue = nameValue;
     this._linkValue = linkValue;
     this._descriptionValue = descriptionValue;
     this._templateSelector = templateSelector;
-    this._handleCardClick = handleCardClick;
   }
 
   // методом, который забирает разметку из HTML и клонируем элемент
@@ -14,10 +13,18 @@ export default class Card {
     return this._card;
   };
 
+  _handMouseover = () => {
+    this._card.querySelector(".elements__image").style.opacity = '0.06'
+  }
+
+  _handleMouseout = () => {
+    this._card.querySelector(".elements__image").style.opacity = '1'
+  }
 
   //метод добавление обработчиков
   _setEventListners() {
-    this._element.querySelector('.elements__image').addEventListener('click', () => this._handleCardClick());
+    this._card.addEventListener('mouseover', () => this._handMouseover());
+    this._card.addEventListener('mouseout', () => this._handleMouseout());
   };
 
   // методом, который добавляет данные в разметку

@@ -3,16 +3,8 @@
   background-color: #FFFFFF;
   position: relative;
   width: 450px;
+  cursor: pointer;
 }
 
 
-.elements__card:hover {
-  background-color: #ffffffaa;
-}
-
-
-.elements__card:hover .elements__title {
-  transform: translateY(50%);
-  opacity: 1;
-  transition: all 1.5s;
-}
+.elements__card:hover {}

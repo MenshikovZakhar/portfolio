@@ -18,11 +18,9 @@
   animation-play-state: paused;
   position: absolute;
   top: 50px;
+  display: none;
 }
 
-.ramka-6:hover {
-  animation-play-state: running;
-}
 
 @keyframes anim-ramka-6 {
   0% {
@@ -49,6 +47,10 @@
 
 
 .elements__card:hover .elements__description {
-  display: block;
+  display: flex;
   animation-play-state: running;
+}
+
+.elements__description:hover .elements__image {
+  opacity: 0.06;
 }

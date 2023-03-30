@@ -10,13 +10,8 @@ const renderercard = (item) => {
     item.link,
     item.description,
     ".card-template",
-    {
-      handleCardClick: () => {
-        popupWithImage.open(item.name, item.link);
-      }
-    }
   );
-  const cardElement = card.generateCard(item);
+  const cardElement = card.generateCard();
   return cardElement;
 }
 
@@ -30,7 +25,7 @@ const standardCards = new Section(
   },
   ".elements__list"
 );
-standardCards.renderItems(initialCards);
+standardCards.renderItems();
 
 
 
@@ -88,4 +83,8 @@ const handleClick = function () {
   divs.classList.toggle("hide")
 }
 document.getElementById("menu-toggle").addEventListener("click", handleClick)
+
+
+
+
 

@@ -5,8 +5,3 @@
   display: block;
   width: 450px;
 }
-
-
-.elements__image:hover {
-  opacity: 0.06;
-}
