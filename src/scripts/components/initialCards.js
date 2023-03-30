@@ -11,44 +11,52 @@ export const initialCards = [
   {
     name: "Colorist-nextjs",
     link: slide1,
-    description: "Сайт парикмахера-колориста"
+    description: "Сайт парикмахера-колориста",
+    links: "https://valeria-colorist.ru/"
   },
 
   {
     name: "Банные чаны",
     link: slide2,
-    description: "Интернет магазин"
+    description: "Интернет магазин",
+    links: "https://menshikovzakhar.github.io/bathhouse-font/"
   },
   {
     name: "Mesto-react",
     link: slide3,
-    description: "Одностраничное приложение"
+    description: "Одностраничное приложение",
+    links: "https://menshikovzakhar.github.io/react-mesto-auth/"
   },
   {
     name: "Путешествие по России",
     link: slide4,
-    description: "Landing page"
+    description: "Landing page",
+    links: "https://menshikovzakhar.github.io/russian-travel/"
   },
   {
     name: "Mesto",
     link: slide5,
-    description: "Учебный проект"
+    description: "Учебный проект",
+    links: "https://menshikovzakhar.github.io/mesto/"
   },
   {
     name: "Любимовка",
     link: slide6,
-    description: "Landing page"
+    description: "Landing page",
+    links: "https://menshikovzakhar.github.io/lubimovka/"
   },
 
   {
     name: "Colorist-react",
     link: slide7,
-    description: "Сайт парикмахера-колориста"
+    description: "Сайт парикмахера-колориста",
+    links: "https://valeria-colorist.ru/"
   },
 
   {
     name: "Как научиться учиться",
     link: slide8,
-    description: "Учебный проект"
+    description: "Учебный проект",
+    links: "https://menshikovzakhar.github.io/how-to-learn/"
   },
 ];

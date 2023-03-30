@@ -1,8 +1,9 @@
 export default class Card {
-  constructor(nameValue, linkValue, descriptionValue, templateSelector, handMouseover, handleMouseout) {
+  constructor(nameValue, linkValue, descriptionValue, linksValue, templateSelector, handMouseover, handleMouseout) {
     this._nameValue = nameValue;
     this._linkValue = linkValue;
     this._descriptionValue = descriptionValue;
+    this._linksValue = linksValue;
     this._templateSelector = templateSelector;
   }
 
@@ -34,11 +35,12 @@ export default class Card {
     const cardImage = this._element.querySelector(".elements__image");
     const cardTitle = this._element.querySelector(".elements__title");
     const cardText = this._element.querySelector(".elements__subtitle");
+    const cardLinks = this._element.querySelector(".elements__links");
     cardImage.setAttribute("src", this._linkValue);
     cardImage.setAttribute("alt", this._nameValue);
     cardTitle.textContent = this._nameValue;
     cardText.textContent = this._descriptionValue;
-
+    cardLinks.href = this._linksValue;
     return this._element;
   };
 }

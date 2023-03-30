@@ -9,6 +9,7 @@ const renderercard = (item) => {
     item.name,
     item.link,
     item.description,
+    item.links,
     ".card-template",
   );
   const cardElement = card.generateCard();
