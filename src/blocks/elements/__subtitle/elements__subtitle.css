@@ -1,0 +1,27 @@
+.elements__subtitle {
+  margin: 60px;
+  max-width: 300px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  opacity: 1;
+  font-size: 20px;
+  position: absolute;
+}
+
+.showss {
+  animation: showBlocksss 0.5s linear forwards;
+}
+
+
+@keyframes showBlocksss {
+  0% {
+    opacity: 0;
+    top: 50px;
+  }
+
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
