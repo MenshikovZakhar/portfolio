@@ -193,11 +193,12 @@
         minlength="2" maxlength="40">
       <span class="name-input-error popup__input-error"></span>
 
-      <input class="popup__item popup__item-phone" name="phone" type="tel" value="" id="phone-input" required
-        minlength="2" maxlength="200">
+      <input class="popup__item popup__item-phone" name="phone" type="tel" value="" id="phone-input"
+        pattern="^((8|\+7)[\- ]?)?\(?\d{3,5}\)?[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}(([\- ]?\d{1})?[\- ]?\d{1})?$"
+        minlength="11" maxlength="18" required>
       <span class="phone-input-error popup__input-error"></span>
 
-      <input class="popup__item popup__item-email" type="text" name="email" value="" id="email-input" required
+      <input class="popup__item popup__item-email" type="email" name="email" value="" id="email-input" required
         minlength="2" maxlength="40">
       <span class="email-input-error popup__input-error"></span>
 
