@@ -186,7 +186,15 @@
       </li>
     </ul>
   </section>
-
+  <form class="popup__forms popup__form-info" name="editProfile" novalidate>
+    <input class="popup__item popup__item-username" name="name" type="text" value="" id="name-input" required
+      minlength="2" maxlength="40">
+    <span class="name-input-error popup__input-error"></span>
+    <input class="popup__item popup__item-about" name="about" type="text" value="" id="about-input" required
+      minlength="2" maxlength="200">
+    <span class="about-input-error popup__input-error"></span>
+    <button class="popup__submit-button popup__submit-button_disabled" type="submit">Сохранить</button>
+  </form>
   </section>
 </body>
 
