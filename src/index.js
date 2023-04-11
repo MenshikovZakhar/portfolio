@@ -119,9 +119,9 @@ enableValidation(config);
 $(document).ready(function () {
   $("form").submit(function () {
     // Получение ID формы
-    var formID = $(this).attr('id');
+    let formID = $(this).attr('id');
     // Добавление решётки к имени ID
-    var formNm = $('#' + formID);
+    let formNm = $('#' + formID);
     $.ajax({
       type: "POST",
       url: '/mail.php',
