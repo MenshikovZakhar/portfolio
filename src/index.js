@@ -116,7 +116,7 @@ const enableValidation = (config) => {
 enableValidation(config);
 
 formValidators['editProfile'].restartFormValidation()
-
+const formCard = document.querySelector(".popup__forms");
 $(document).ready(function () {
   $("form").submit(function () {
     // Получение ID формы
@@ -129,11 +129,11 @@ $(document).ready(function () {
       data: formNm.serialize(),
       beforeSend: function () {
         // Вывод текста в процессе отправки
-        $(formNm).html('<p style="text-align:center">Отправка...</p>');
+        $(formNm).html(formCard);
       },
-      success: function (data) {
+      success: function () {
         // Вывод текста результата отправки
-        $(formNm).html('<p style="text-align:center">' + data + '</p>');
+        $(formNm).html(formCard);
       },
       error: function (jqXHR, text, error) {
         // Вывод текста ошибки отправки
