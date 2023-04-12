@@ -115,6 +115,7 @@ const enableValidation = (config) => {
 };
 enableValidation(config);
 
+formValidators['editProfile'].restartFormValidation()
 
 $(document).ready(function () {
   $("form").submit(function () {
@@ -136,7 +137,7 @@ $(document).ready(function () {
       },
       error: function (jqXHR, text, error) {
         // Вывод текста ошибки отправки
-        $(formNm).html(error);
+        $(formNm).html('<p style="text-align:center">' + data + '</p>');
       }
     });
     return false;
