@@ -46,10 +46,10 @@
 .elements__description{align-items:center;animation:anim-ramka-6 .8s cubic-bezier(.19,1,.22,1) 1;animation-play-state:paused;background-image:linear-gradient(90deg,#bfe2ff 100%,#bfe2ff 0),linear-gradient(180deg,#bfe2ff 100%,#bfe2ff 0),linear-gradient(90deg,#bfe2ff 100%,#bfe2ff 0),linear-gradient(180deg,#bfe2ff 100%,#bfe2ff 0);background-position:0 0,100% 0,100% 100%,0 100%;background-repeat:no-repeat;background-size:100% 6px,6px 100%,100% 6px,6px 100%;display:none;flex-direction:column;font-family:Roboto,sans-serif;font-size:24px;height:150px;justify-content:center;left:50px;margin:30px auto;position:absolute;top:10px;width:350px}@keyframes anim-ramka-6{0%{background-size:0 6px,6px 0,0 6px,6px 0}25%{background-size:100% 6px,6px 0,0 6px,6px 0}50%{background-size:100% 6px,6px 100%,0 6px,6px 0}75%{background-size:100% 6px,6px 100%,100% 6px,6px 0}to{background-size:100% 6px,6px 100%,100% 6px,6px 100%}}.elements__card:hover .elements__description{animation-play-state:running;display:flex}.elements__description:hover .elements__image{opacity:.06}@media screen and (max-width:930px){.elements__description{left:30px;top:-10px}}@media screen and (max-width:480px){.elements__description{top:-20px;width:300px}}@media screen and (max-width:370px){.elements__description{height:130px;left:15px;top:-20px;width:270px}}
 
 .elements__subtitle{border-radius:10px;color:#5c87bd;font-size:20px;margin:60px;max-width:300px;opacity:1;padding:15px;position:absolute;text-align:center}.showss{animation:showBlocksss .5s linear forwards}@keyframes showBlocksss{0%{opacity:0;top:50px}to{opacity:1;top:10px}}@media screen and (max-width:480px){.elements__subtitle{font-size:16px}}
+.about{display:flex;flex-direction:column}
 
-
-
-
+.about__description{display:flex;flex-direction:row;margin:0 auto}
+.about__image{border-radius:50%;height:250px;width:250px}
 
 
 
