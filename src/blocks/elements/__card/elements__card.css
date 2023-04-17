@@ -7,4 +7,20 @@
 }
 
 
-.elements__card:hover {}
+@media screen and (max-width: 930px) {
+  .elements__card {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .elements__card {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .elements__card {
+    width: 300px;
+  }
+}

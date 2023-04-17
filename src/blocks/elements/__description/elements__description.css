@@ -55,3 +55,28 @@
 .elements__description:hover .elements__image {
   opacity: 0.06;
 }
+
+
+@media screen and (max-width: 930px) {
+  .elements__description {
+    left: 30px;
+    top: -10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .elements__description {
+    width: 300px;
+    top: -20px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .elements__description {
+    width: 270px;
+    top: -20px;
+    height: 130px;
+    left: 15px;
+  }
+}

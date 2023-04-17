@@ -6,3 +6,21 @@
   margin: 0 auto;
   width: 80%;
 }
+
+@media(max-width: 875px) {
+  .services__container {
+    width: 90%;
+  }
+}
+
+@media(max-width: 780px) {
+  .services__container {
+    width: 100%;
+  }
+}
+
+@media(max-width: 450px) {
+  .services__container {
+    width: 80%;
+  }
+}
