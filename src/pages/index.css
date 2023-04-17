@@ -18,6 +18,11 @@
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__menu-toggler/header__menu-toggler.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__links/menu__links.css);
+@import url(../blocks/menu/__link/menu__link.css);
+
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__image/services__image.css);
 @import url(../blocks/services/__container/services__container.css);
@@ -26,6 +31,7 @@
 @import url(../blocks/services/__item/_show/services__item_show.css);
 @import url(../blocks/services/__underline/services__underline.css);
 @import url(../blocks/services/__title/services__title.css);
+
 
 @import url(../blocks/skills/skills.css);
 @import url(../blocks/skills/__image/skills__image.css);

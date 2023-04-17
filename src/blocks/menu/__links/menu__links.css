@@ -1,0 +1,10 @@
+.menu__links {
+  margin: 15px auto;
+  width: 200px;
+}
+
+@media (max-width: 680px) {
+  .menu__links {
+    width: 150px;
+  }
+}
