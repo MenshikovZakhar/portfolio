@@ -6,4 +6,12 @@
   align-items: center;
   box-sizing: border-box;
   font-style: normal;
+  background: linear-gradient(#f0f0f0, #5c87bd);
+}
+
+
+@media(max-width: 440px) {
+  .footer {
+    padding: 70px 50px 20px;
+  }
 }

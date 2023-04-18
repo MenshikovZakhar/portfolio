@@ -1,0 +1,8 @@
+.footer__communication {
+  margin: 10px 0 0 0;
+}
+
+
+@media(max-width: 360px) {
+  .footer__communication {}
+}
