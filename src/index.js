@@ -40,7 +40,7 @@ const standardCards = new Section(
 standardCards.renderItems();
 
 
-
+//анимация элементов
 function onEntry(entry) {
   entry.forEach(change => {
     if (change.isIntersecting) {
@@ -90,6 +90,8 @@ anchors.forEach(function (item) {
   });
 });
 
+
+//функция открытия меню
 const handleClick = function () {
   const divs = document.getElementById("menu")
   divs.classList.toggle("hide")
