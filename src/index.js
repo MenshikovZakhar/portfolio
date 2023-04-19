@@ -133,9 +133,9 @@ $(document).ready(function () {
         // Вывод текста в процессе отправки
         $(formNm).html(formCard);
       },
-      success: function () {
+      success: function (data) {
         // Вывод текста результата отправки
-        $(formNm).html(formCard);
+        $(formNm).html('<p style="text-align:center">' + data + '</p>');
       },
       error: function (jqXHR, text, error) {
         // Вывод текста ошибки отправки
