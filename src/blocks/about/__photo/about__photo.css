@@ -1,0 +1,13 @@
+.about__photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 580px) {
+  .about__photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
