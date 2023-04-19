@@ -221,6 +221,9 @@
   </section>
 
   <section class="contact" id="contact">
+    <h3 class="contact__title">Контакты</h3>
+    <div class="services__underline"></div>
+    <p class="contact__text">Пожалуйста, оставьте свои контактные данные и сообщение, чтобы я мог с Вами связаться.</p>
     <form class="popup__forms popup__form-info" name="editProfile" novalidate action="mail.php" method="post"
       id="feedback-form">
       <input class="popup__item popup__item-username" name="name" type="text" value="" id="name-input" required
@@ -236,7 +239,7 @@
         minlength="2" maxlength="40" placeholder="Ваш email">
       <span class="email-input-error popup__input-error"></span>
 
-      <textarea rows="10" cols="45" name="message" placeholder="Ваш текст"></textarea>
+      <textarea rows="10" cols="45" name="message" placeholder="Ваш сообщение"></textarea>
 
       <button class="popup__submit-button popup__submit-button_disabled" name="submit" type="submit"
         disabled>Отправить</button>

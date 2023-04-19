@@ -1,0 +1,25 @@
+.popup__forms {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .popup__forms {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .popup__forms {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .popup__forms {
+    width: 80%;
+  }
+}

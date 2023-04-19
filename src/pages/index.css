@@ -61,6 +61,14 @@
 @import url(../blocks/about/__text/about__text.css);
 @import url(../blocks/about/__title/about__title.css);
 
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__title/contact__title.css);
+@import url(../blocks/contact/__forms/popup__forms.css);
+@import url(../blocks/contact/__item/popup__item.css);
+@import url(../blocks/contact/__submit-button/popup__submit-button.css);
+@import url(../blocks/contact/__submit-button/_disabled/popup__submit-button_disabled.css);
+@import url(../blocks/contact/__input-error/popup__input-error.css);
+@import url(../blocks/contact/__text/contact__text.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);
