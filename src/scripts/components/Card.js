@@ -28,6 +28,7 @@ export default class Card {
   _setEventListners() {
     this._card.addEventListener('mouseover', () => this._handMouseover());
     this._card.addEventListener('mouseout', () => this._handleMouseout());
+    this._card.addEventListener('touchmove', () => this._handMouseover());
   };
 
   // методом, который добавляет данные в разметку
