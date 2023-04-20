@@ -15,12 +15,17 @@ export default class Card {
   };
 
   _handMouseover = () => {
+
+
+
     this._card.querySelector(".elements__image").style.opacity = '0.06'
     this._card.querySelector(".elements__title").classList.add('shows')
     this._card.querySelector(".elements__subtitle").classList.add('showss')
   }
 
   _handleMouseout = () => {
+
+
     this._card.querySelector(".elements__image").style.opacity = '1'
   }
 
@@ -28,8 +33,14 @@ export default class Card {
   _setEventListners() {
     this._card.addEventListener('mouseover', () => this._handMouseover());
     this._card.addEventListener('mouseout', () => this._handleMouseout());
-    this._card.addEventListener('touchstart', () => this._handMouseover());
-    this._card.addEventListener('touchhend', () => this._handleMouseout());
+    this._card.addEventListener('touchstart', () => {
+
+      this._handMouseover.bind(this)
+    });
+    this._card.addEventListener('touchhend', () => {
+
+      this._handleMouseout.bind(this)
+    });
   };
 
   // методом, который добавляет данные в разметку
