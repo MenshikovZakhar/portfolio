@@ -15,12 +15,9 @@ export default class Card {
   };
 
   _handMouseover = () => {
-
-
-
-    this._card.querySelector(".elements__image").style.opacity = '0.06'
     this._card.querySelector(".elements__title").classList.add('shows')
     this._card.querySelector(".elements__subtitle").classList.add('showss')
+    this._card.querySelector(".elements__image").style.opacity = '0.06'
   }
 
   _handleMouseout = () => {

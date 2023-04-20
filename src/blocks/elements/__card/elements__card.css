@@ -5,11 +5,9 @@
   width: 450px;
   cursor: pointer;
   transform: translateY(50px);
-  opacity: 0;
 }
 
 .elements__card.show {
-  opacity: 1;
   transition: all 1.5s;
   transform: translateY(0%);
 }
