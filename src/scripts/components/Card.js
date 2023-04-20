@@ -15,16 +15,12 @@ export default class Card {
   };
 
   _handMouseover = () => {
-    this._card.querySelector(".elements__image").classList.add('showsss')
+
     this._card.querySelector(".elements__title").classList.add('shows')
     this._card.querySelector(".elements__subtitle").classList.add('showss')
   }
 
   _handleMouseout = () => {
-
-    this._card.querySelector(".elements__title").classList.remove('shows')
-    this._card.querySelector(".elements__subtitle").classList.remove('showss')
-    this._card.querySelector(".elements__image").classList.remove('showsss')
 
   }
 

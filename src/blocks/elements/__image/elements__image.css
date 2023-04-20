@@ -6,7 +6,9 @@
   width: 450px;
 }
 
-.showsss {
+
+
+.elements__card:hover .elements__image {
   opacity: 0.06;
 }
 

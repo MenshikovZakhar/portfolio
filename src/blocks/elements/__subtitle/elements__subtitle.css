@@ -10,6 +10,12 @@
   color: #5c87bd
 }
 
+
+.elements__card:hover .elements__subtitle {
+  opacity: 0;
+}
+
+
 .showss {
   animation: showBlocksss 0.5s linear forwards;
 }

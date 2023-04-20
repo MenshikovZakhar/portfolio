@@ -10,6 +10,10 @@
   top: 45px;
 }
 
+.elements__card:hover .elements__title {
+  opacity: 0;
+}
+
 .shows {
   animation: showBlockss 0.5s linear forwards;
 
