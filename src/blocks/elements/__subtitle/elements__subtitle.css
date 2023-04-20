@@ -13,6 +13,7 @@
 
 .elements__card:hover .elements__subtitle {
   opacity: 0;
+  animation: showBlocksss 0.5s linear forwards;
 }
 
 

@@ -12,6 +12,7 @@
 
 .elements__card:hover .elements__title {
   opacity: 0;
+  animation: showBlockss 0.5s linear forwards;
 }
 
 .shows {
