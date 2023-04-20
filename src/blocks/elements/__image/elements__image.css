@@ -6,6 +6,10 @@
   width: 450px;
 }
 
+.showsss {
+  opacity: 0.06;
+}
+
 @media screen and (max-width: 930px) {
   .elements__image {
     width: 400px;
