@@ -6,14 +6,30 @@
 
 }
 
+.contact__text-1 {
+  font-size: 18px;
+  width: 80%;
+  margin: 0 auto 20px;
+  text-align: center;
+  color: #2BE080;
+}
+
 @media screen and (max-width: 850px) {
-  .contact__text {
+  .contact__text-1 {
+    width: 80%;
+  }
+
+  .contact__text-1 {
     width: 80%;
   }
 }
 
 @media screen and (max-width: 550px) {
   .contact__text {
+    width: 80%;
+  }
+
+  .contact__text-1 {
     width: 80%;
   }
 }

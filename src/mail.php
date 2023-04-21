@@ -8,8 +8,9 @@ $message .= "Сообщение: ".$_POST['message']."<br>"; //полученн�
 $headers = 'MIME-Version: 1.0' . "\r\n"; // заголовок соответствует формату плюс символ перевода строки
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n"; // указывает на тип посылаемого контента
 if (mail($to, $tema, $message, $headers)) {
-  echo '<p>Сообщение отправлено</p> <a href="#contact" onclick="location.reload(); return false;">
-	Отправить новое сообщение
+  echo '<p class="contact__text">Сообщение отправлено!!!</p> <a href="#contact"
+  onclick="location.reload(); return false;">
+	<p class="contact__text-1"> Отправить новое сообщение</p>
 </a>';
 }
 else {
