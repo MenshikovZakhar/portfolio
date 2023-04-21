@@ -69,6 +69,7 @@
 @import url(../blocks/contact/__submit-button/_disabled/popup__submit-button_disabled.css);
 @import url(../blocks/contact/__input-error/popup__input-error.css);
 @import url(../blocks/contact/__text/contact__text.css);
+@import url(../blocks/contact/__mail/contact__mail.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);

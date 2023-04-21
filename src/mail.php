@@ -10,7 +10,7 @@ $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n"; // указыва
 if (mail($to, $tema, $message, $headers)) {
   echo '<p class="contact__text">Сообщение отправлено!!!</p> <a href="#contact"
   onclick="location.reload(); return false;">
-	<p class="contact__text-1"> Отправить новое сообщение</p>
+	<p class="contact__mail"> Отправить новое сообщение</p>
 </a>';
 }
 else {
