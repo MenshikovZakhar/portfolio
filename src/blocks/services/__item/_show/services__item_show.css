@@ -9,3 +9,21 @@
   transition: all 1.5s;
   transform: translateY(0%);
 }
+
+.popup__item.show {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateY(0%);
+}
+
+.popup__submit-button.show {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateY(0%);
+}
+
+.textarea__item.show {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateY(0%);
+}

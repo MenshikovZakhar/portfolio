@@ -21,7 +21,8 @@ export default class Card {
   }
 
   _handleMouseout = () => {
-
+    this._card.querySelector(".elements__title").classList.remove('shows')
+    this._card.querySelector(".elements__subtitle").classList.remove('showss')
   }
 
   //метод добавление обработчиков

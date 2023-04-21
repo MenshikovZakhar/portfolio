@@ -5,4 +5,10 @@
   padding: 10px;
   border: 2px solid #aaa;
   border-radius: 6px;
+  transform: translateY(50px);
+}
+
+
+.textarea__item {
+  transform: translateY(50px);
 }

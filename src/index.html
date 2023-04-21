@@ -227,22 +227,22 @@
       id="feedback-form">
       <p class="contact__text">Пожалуйста, оставьте свои контактные данные и сообщение, чтобы я мог с Вами связаться.
       </p>
-      <input class="popup__item popup__item-username" name="name" type="text" value="" id="name-input" required
+      <input class="item popup__item popup__item-username" name="name" type="text" value="" id="name-input" required
         minlength="2" maxlength="40" placeholder="Ваше имя">
       <span class="name-input-error popup__input-error"></span>
 
-      <input class="popup__item popup__item-phone" name="phone" type="tel" value="" id="phone-input"
+      <input class="item popup__item popup__item-phone" name="phone" type="tel" value="" id="phone-input"
         pattern="^((8|\+7)[\- ]?)?\(?\d{3,5}\)?[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}(([\- ]?\d{1})?[\- ]?\d{1})?$"
         minlength="11" maxlength="18" required placeholder="Ваш телефон">
       <span class="phone-input-error popup__input-error"></span>
 
-      <input class="popup__item popup__item-email" type="email" name="email" value="" id="email-input" required
+      <input class="item popup__item popup__item-email" type="email" name="email" value="" id="email-input" required
         minlength="2" maxlength="40" placeholder="Ваш email">
       <span class="email-input-error popup__input-error"></span>
 
-      <textarea rows="10" cols="45" name="message" placeholder="Ваш сообщение"></textarea>
+      <textarea class="textarea__item item" rows="10" cols="45" name="message" placeholder="Ваш сообщение"></textarea>
 
-      <button class="popup__submit-button popup__submit-button_disabled" name="submit" type="submit"
+      <button class="item popup__submit-button popup__submit-button_disabled" name="submit" type="submit"
         disabled>Отправить</button>
     </form>
   </section>
