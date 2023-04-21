@@ -9,7 +9,9 @@
 ## :memo: Описание
 Одностраничный сайт (landing page) сайта-портфолио с адаптивным дизайном. В проекте реализованы следующие знания и технологии: HTML, семантические теги, CSS, Flexbox-layout, Grid, позиционирование, анимация и трансформация, формы, БЭМ, JavaScript, PHP. Реализованна живая валидация форм.
 
-## [Ссылка на проект]( https://menshikovzakhar.github.io/colorist-react/)
+## [Ссылка на проект]( https://menshikovzakhar.github.io/portfolio/)
+
+
 
 ## :hammer: Стэк технологий
 1. HTML,
